@@ -1,8 +1,8 @@
 import React from "react"
 import {
-  FaFacebookSquare,
-  FaLinkedin,
-  FaDribbbleSquare,
+  FaVimeoSquare,
+  FaTumblrSquare,
+  FaInstagramSquare,
   FaBehanceSquare,
   FaTwitterSquare,
 } from "react-icons/fa"
@@ -10,17 +10,17 @@ import {
 const data = [
   {
     id: 1,
-    icon: <FaFacebookSquare className="social-icon"></FaFacebookSquare>,
+    icon: <FaVimeoSquare className="social-icon"></FaVimeoSquare>,
     url: "https://www.twitter.com",
   },
   {
     id: 2,
-    icon: <FaLinkedin className="social-icon"></FaLinkedin>,
+    icon: <FaTumblrSquare className="social-icon"></FaTumblrSquare>,
     url: "https://www.twitter.com",
   },
   {
     id: 3,
-    icon: <FaDribbbleSquare className="social-icon"></FaDribbbleSquare>,
+    icon: <FaInstagramSquare className="social-icon"></FaInstagramSquare>,
     url: "https://www.twitter.com",
   },
   {
